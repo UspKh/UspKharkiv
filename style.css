@@ -28,6 +28,9 @@
   height: 80px;
   width: 50px;
 }
+.header-text{
+  width: 90%;
+}
 .header-logo-text{
   margin: 5px;
   font-family: "Cuprum", sans-serif;
@@ -35,6 +38,7 @@
   font-size: 30px;
   color: #ffffff;
   line-height: 25px;
+  text-align: center;
 }
 .header-menu{
   background-color: #10401b;
@@ -46,6 +50,13 @@
 }
 .header-menu-item{
   margin: 10px;
+  font-family: "Cuprum", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+.header-menu-item-link{
+  text-decoration: none;
   font-family: "Cuprum", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -64,7 +75,7 @@
 }
 .main-advantage{
   background-color: #ffffff;
-  width: 370px;
+  width: 395px;
   box-sizing: border-box;
   box-shadow: 0 0 5px 0 #000000;
   border-radius: 5px;
@@ -96,8 +107,22 @@
   font-size: 20px;
   font-weight: 700;
 }
-.main-advantage-text{
+.main-advantage-head{
   color: #875826;
+  font-family: "Cuprum", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+}
+.main-advantage-text{
+  color: #10401b;
+  font-family: "Cuprum", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.main-advantage-text-link{
+  text-decoration: none;
+  color: #10401b;
   font-family: "Cuprum", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -157,4 +182,34 @@
   font-size: 20px;
   color: #ffffff;
   text-align: end;
+}
+
+/*   About   */
+.main-article-header-about{
+  text-align: center;
+  width: 100%;
+  font-family: "Cuprum", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #10401b;
+  text-align: center;
+  padding: 5px;
+}
+.main-article-text-about{
+  color: #000000;
+  font-family: "Cuprum", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 5%;
+}
+.main-article-text-about-items{
+  list-style-image: url("src/img/tickcircle.png");
+  list-style-position: inside;
+}
+.main-article-text-about-item{
+  color: #000000;
+  font-family: "Cuprum", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 5%;
 }
