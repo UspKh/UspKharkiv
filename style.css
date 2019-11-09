@@ -61,6 +61,7 @@
   font-weight: 400;
   font-size: 20px;
   color: #ffffff;
+
 }
 /*   Main   */
 .main{
@@ -142,14 +143,26 @@
   padding: 5px 5%;
 
 }
+.main-article-wrapper{
+  display: flex;
+}
+.main-article-text-wrapper{
+
+}
+.main-article-image{
+  
+}
 .main-article-header{
-  width: 65%;
+  width: 85%;
   font-family: "Cuprum", sans-serif;
   font-weight: 700;
   font-size: 30px;
   color: #10401b;
-  text-align: center;
   padding: 5px;
+}
+.main-article-header-link{
+  text-decoration: none;
+  color: #10401b;
 }
 .main-article-information{
   width: 15%;
