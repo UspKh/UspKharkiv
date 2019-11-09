@@ -134,6 +134,7 @@
   box-shadow: 0 0 5px 0 #000000;
   background-color: #ffffff;
   border-radius: 5px;
+  padding: 30px 2%;
 }
 .main-article-header-wrapper{
   display: flex;
