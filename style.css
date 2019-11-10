@@ -146,7 +146,6 @@
 .main-article-wrapper{
   display: flex;
 }
-
 .main-article-header{
   width: 85%;
   font-family: "Cuprum", sans-serif;
@@ -221,4 +220,11 @@
   font-size: 18px;
   font-weight: 400;
   padding: 10px 5%;
+}
+.main-article-text-about-items-numeral{
+  list-style-position: inside;
+}
+.main-article-text-about-link{
+  text-decoration: none;
+  color: #10401b;
 }
