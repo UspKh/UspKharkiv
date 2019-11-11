@@ -229,3 +229,30 @@
   color: #10401b;
   font-weight: 700;
 }
+/*   table   */
+.main-article-table{
+  font-family: "Cuprum", sans-serif;
+  font-size: 18px;
+  border-collapse: collapse;
+}
+.main-article-table-head{
+  background-color: #10401b;
+  color: #ffffff;
+  height: 40px;
+}
+.main-article-table-head-row{
+  height: 40px;
+}
+.main-article-table-body-row-odd{
+  background-color: rgba(57, 118, 36, 0.05);
+}
+.main-article-table-body-row-even{
+  /*background-color: rgba(16, 64, 27, 0.2);*/
+  background-color: rgba(159, 197, 90, 0.3);
+}
+.main-article-table-head-coll-when, .main-article-table-head-coll-what,
+ .main-article-table-head-who, .main-article-table-head-where,
+ .main-article-table-body-coll-when, .main-article-table-body-coll-what,
+ .main-article-table-body-coll-who, .main-article-table-body-coll-where{
+   padding: 5px;
+ }
