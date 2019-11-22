@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body{
+  background-color: #10401b;
+}
 .wrapper{
   background-color: #9fc55a;
 }
@@ -76,7 +79,7 @@
 }
 .main-advantage{
   background-color: #ffffff;
-  width: 395px;
+  width: 48%;
   box-sizing: border-box;
   box-shadow: 0 0 5px 0 #000000;
   border-radius: 5px;
