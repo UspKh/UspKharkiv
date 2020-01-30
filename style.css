@@ -259,3 +259,10 @@ body{
  .main-article-table-body-coll-who, .main-article-table-body-coll-where{
    padding: 5px;
  }
+/*   Images   */
+.bigImg{
+  width: 100%;
+}
+.main-article-image-home{
+  padding: 0 10%;
+}
